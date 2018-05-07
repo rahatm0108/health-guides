@@ -1,0 +1,33 @@
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #FF9166
+}
+
+
+footer {
+    background-color: #FF9166;
+    padding: 26px;
+}
+
+body {
+    background-color: #FFD470;
+}
+
+.panel-primary {
+    background-color: #58CCB6
+}
+
+.panel-heading {
+    background-color: #5070B5
+}
+
+.jumbotron , .navbar , .panel-primary , .panel-danger , .panel-sucess{
+    font-family: 'Quattrocento', serif;
+    color:black;
+}
