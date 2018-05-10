@@ -8,7 +8,7 @@
         var health = $('input[name=player]:checked').val();
         console.log(health);
         if (health == "mental") {
-          var dream = "Hello there " + name + " you decided to work on your mental health with the goal of" + power + ". Goodluck on your journey of self-improvement";
+          var dream = "Hello there " + name + " you decided to work on your mental health with the goal of " + power + ". Goodluck on your journey of self-improvement";
           $('h4').html(dream).css('color', 'black');
         
         }
