@@ -9,12 +9,12 @@
         console.log(health);
         if (health == "mental") {
           var dream = "Hello there " + name + " you decided to work on your mental health with the goal of" + power + ". Goodluck on your journey of self-improvement";
-          $('p').html(dream).css('color', 'blue');
+          $('h4').html(dream).css('color', 'black');
         
         }
         if (health== "physical") {
           var dream = "Hi there " + name + " you decided to work on your physical health with the goal of "+power;
-          $('p').html(dream).css('color', 'green');
+          $('h4').html(dream).css('color', 'black');
           
         }
       });
